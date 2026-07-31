@@ -3,7 +3,7 @@
 // ============================================================
 // Point this at wherever your FastAPI app is running.
 const API_BASE_URL = "https://roompredictor.onrender.com";
-const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
+const PREDICT_ENDPOINT = `${API_BASE_URL}/predicts`;
 const HEALTH_ENDPOINT = `${API_BASE_URL}/`;
 
 const REDUCE_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
