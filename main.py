@@ -42,7 +42,7 @@ def get():
 
 
 @app.post('/predicts')
-def predict(features):
+def predict(features: Features):
     row = pd.DataFrame([features.dict()],columns= COLUMNS)
     prediction = model.predict(row)
     probability = model.predict_proba(row)
