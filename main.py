@@ -37,7 +37,7 @@ class Features(BaseModel):
 
 
 @app.get('/')
-def get():
+def greet():
     return "Hello Guys"
 
 
